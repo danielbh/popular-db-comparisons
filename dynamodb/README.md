@@ -46,8 +46,8 @@ Terminal 2
 * Table encryption with custom keys
 
 ### Cost Analysis
- * Can be provisioned or on-demand billing [ref](https://dynobase.dev/dynamodb-pricing-calculator/)
- * Billed on [ref](https://dynobase.dev/dynamodb-pricing-calculator/)
+ * Can be provisioned or on-demand billing. [ref](https://dynobase.dev/dynamodb-pricing-calculator/)
+ * Billed on [ref](https://dynobase.dev/dynamodb-pricing-calculator/):
     * Amount of data stored
     * Amount of data written and read
     * Data transfer
