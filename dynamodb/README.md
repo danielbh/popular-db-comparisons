@@ -29,7 +29,7 @@ Terminal 2
 * ACID transactions with restrictions
 * Eventual Consistency/Strong Consistency - User Controlled
 * Secondary Indexes
-* Enterprise ReadyL SLA, monitoring, private VPN
+* Enterprise Ready SLA, monitoring, private VPN
 * Supports the following data-types
   * Scalar: Number, String, Binary, Boolean, Null
   * Multi-valued: String, Number Set, Binary Set
@@ -82,7 +82,7 @@ Terminal 2
 * Item size limited to 400 KB which includes: item size in table, size of LSI corresponding to that item.
 * Partition max size: 10 GB
 * Partition max 3000 RCU and max 1000 WCU
-* Strongly consistent reads more expensive, and will predictable prefer CP over AP (CAP Theorem) which can impact if app is multi-region.
+* Strongly consistent reads more expensive, and will predictably prefer CP over AP (CAP Theorem) which can impact if app is multi-region.
 * Transactions with following restrictions [see dynamodb limits page](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html)
 * Don't pretend this is relational database, you will get burned
 * DynamoDB tables with DynamoDB Streams enabled has limits. 40k wcu or 10k rc depending on region
