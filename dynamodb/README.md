@@ -51,7 +51,7 @@ Terminal 2
 * Partitioning is transparent, but if using GSI need to be aware. Partitioning depends on table size and throughput
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/bgLMI2u.png">
+  <img src="https://cloudacademy.com/wp-content/uploads/2015/11/amazon-dynamodb-cacl.png">
   <br/>
   <i><a href=https://cloudacademy.com/wp-content/uploads/2015/11/amazon-dynamodb-cacl.png>CloudAcademy: amazon-dynamodb-calc</a></i>
 </p>
