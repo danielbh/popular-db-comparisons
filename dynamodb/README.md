@@ -46,8 +46,8 @@ Terminal 2
 * Table encryption with custom keys
 
 ### Cost Analysis
- * Can be provisioned or on-demand billing. [ref](https://dynobase.dev/dynamodb-pricing-calculator/)
- * Billed on [ref](https://dynobase.dev/dynamodb-pricing-calculator/):
+ * Can be provisioned or on-demand billing. [(ref)](https://dynobase.dev/dynamodb-pricing-calculator/)
+ * Billed on [(ref)](https://dynobase.dev/dynamodb-pricing-calculator/):
     * Amount of data stored
     * Amount of data written and read
     * Data transfer
@@ -74,7 +74,7 @@ Terminal 2
 * Docomo: marketing data (user events, profiles, clicks). Ad targeting, attribution, real-time bidding
 * Hess Coporation: Used to separate buyer data
 
-[ref](https://www.geeksforgeeks.org/dynamodb-understand-the-benefits-with-real-life-use-cases/)
+[(ref)](https://www.geeksforgeeks.org/dynamodb-understand-the-benefits-with-real-life-use-cases/)
 
 ### Drawbacks
 
