@@ -11,7 +11,7 @@ This will be a comparison of the four popular databases for where they stand in 
 
 #### Databases Reviewed
 
-* (DynamoDB)[https://github.com/danielbh/popular-db-comparisons/tree/master/dynamodb]
+* [DynamoDB](https://github.com/danielbh/popular-db-comparisons/tree/master/dynamodb)
 
 ### Demo:
 
