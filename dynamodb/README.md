@@ -1,6 +1,6 @@
 ## DynamoDB
 
-#### Demo
+### Demo
 
 Terminal 1
 
@@ -10,3 +10,9 @@ Terminal 1
 Terminal 2 
 
 * `go run dynamodb.go`
+
+### Cost Analysis
+
+### Use-Cases
+
+### Drawbacks
