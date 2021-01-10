@@ -35,10 +35,10 @@ Terminal 2
 * Data Model Units: Tables > Items > Attributes
   * Attributes: kv pairs
   * Tables: like RD w/o fixed schemas
-  * Items: like rows in RD. DynamoDB requires a Primary Key. PK supports Hash or Range.
-* Two Index Types: Local Secondary Index (LSI) and Global Secondary Index (GSI).
-  * LSI: 
-  * GSI: 
+  * Items: like rows in RD. DynamoDB requires a Primary Key. PK supports Hash or Hash + Range.
+* Two Index Types
+  * Local Secondary Index (LSI): range key is mandatory. Limit item size to 10 GB.
+  * Global Secondary Index (GSI): hash key or a hash+range key. GSIs span multiple partitions and are placed in separate tables. DynamoDB supports up to five GSIs. Will be used for partitioning. Offer only eventual consistency.
 
 ### Cost Analysis
 
@@ -48,6 +48,16 @@ Terminal 2
 ### Deployment/Operations
 
 * Fully managed, but need to track costs carefully.
+* Partitioning is transparent, but if using GSI need to be aware. Partitioning depends on table size and throughput
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/bgLMI2u.png">
+  <br/>
+  <i><a href=https://cloudacademy.com/wp-content/uploads/2015/11/amazon-dynamodb-cacl.png>CloudAcademy: amazon-dynamodb-calc</a></i>
+</p>
+
+Image coutesy of https://www.cloudacademy.com
+
 ### Use-Cases
 
 * Duolingo: Supports high throughput with ease
