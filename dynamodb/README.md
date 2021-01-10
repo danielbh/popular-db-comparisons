@@ -13,6 +13,7 @@ Terminal 2
 
 ### Features
 
+* Amazing free-tier pricing. Great for quick MVP.
 * Provisioned/On-Demand throughput with burst capacity
 * Document/KV store
 * auto-scale
