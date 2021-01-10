@@ -53,10 +53,8 @@ Terminal 2
 <p align="center">
   <img src="https://cloudacademy.com/wp-content/uploads/2015/11/amazon-dynamodb-cacl.png">
   <br/>
-  <i><a href=https://cloudacademy.com/wp-content/uploads/2015/11/amazon-dynamodb-cacl.png>CloudAcademy: amazon-dynamodb-calc</a></i>
+  <i><a href=https://cloudacademy.com/wp-content/uploads/2015/11/amazon-dynamodb-cacl.png>Image curteosy CloudAcademy, amazon-dynamodb-calc</a></i>
 </p>
-
-Image coutesy of https://www.cloudacademy.com
 
 ### Use-Cases
 
