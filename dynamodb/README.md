@@ -105,3 +105,4 @@ Terminal 2
 * [DynamoDB: Understand The Benefits With Real Life Use Cases(GeeksForGeeks)](https://www.geeksforgeeks.org/dynamodb-understand-the-benefits-with-real-life-use-cases/)
 * [db-engines: dynamodb](https://db-engines.com/en/system/Amazon+DynamoDB)
 * [reducing dynamoDB cost (Nike)](https://medium.com/nikeengineering/reducing-dynamodb-costs-in-aws-5047cbf726c9)
+* [read consistency](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html)
