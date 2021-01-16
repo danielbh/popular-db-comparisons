@@ -25,7 +25,6 @@ Terminal 2
 * Caching for improved latency (DAX)
 * Good for un-structured data
 * Easy back-ups
-* This is AWS hosted Cassandra
 * ACID transactions with restrictions
 * Eventual Consistency/Strong Consistency - User Controlled
 * Secondary Indexes
